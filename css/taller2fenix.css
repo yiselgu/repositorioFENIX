@@ -1,0 +1,60 @@
+
+
+    * {
+        font-family: "Comic Sans MS"
+    }
+    body{
+        background-color:rgba(255, 255, 255, 1)
+    }
+
+    #cabecera{
+        padding : 20px  20px  20px  20px;
+        position: fixed;
+        margin-bottom : 50px;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        height: 40px;
+        background-color: #64A3E1;
+    } 
+    
+    .frame{
+        width:80% ;
+        height: 300 px ;
+    }
+
+    #body{
+        display: flex;
+        padding-top: 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+    }
+    
+    .action-button{
+        padding: 15px;
+        background-color: rgba(51, 213, 42, 0.77);
+        border-radius: 10px;
+        color: #ffffff;
+        margin:20px;
+    }
+    .action-button:hover{
+        padding: 15px;
+        background-color: #3bd733;
+        border-radius: 10px;
+        color: #ffffff;
+    }
+    #footer{
+        position: fixed;
+        display: flex;
+        margin-top:20px;
+        width: 100%;
+        background-color: #64A3E1;
+        color: lightgray;
+        padding: 20px;
+        left:0px;
+        bottom: 0px;
+        justify-content: center;
+    }
+   
