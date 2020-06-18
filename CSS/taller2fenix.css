@@ -1,10 +1,10 @@
 
 
     * {
-        font-family; : 'Lucida Sans' ,  'Lucida Sans Regular' ,  'Lucida Grande' ,  'Lucida Sans Unicode' , Ginebra , Verdana , sans-serif
+        font-family: "Comic Sans MS"
     }
     body{
-        background-color:gray
+        background-color:rgba(255, 255, 255, 1)
     }
 
     #cabecera{
@@ -15,8 +15,8 @@
         top: 0px;
         left: 0px;
         height: 40px;
-        background-color: honeydew;
-    }
+        background-color: #64A3E1;
+    } 
     
     .frame{
         width:80% ;
@@ -34,14 +34,14 @@
     
     .action-button{
         padding: 15px;
-        background-color: #8ed348;
+        background-color: rgba(51, 213, 42, 0.77);
         border-radius: 10px;
         color: #ffffff;
         margin:20px;
     }
     .action-button:hover{
         padding: 15px;
-        background-color: #9f2e2a;
+        background-color: #3bd733;
         border-radius: 10px;
         color: #ffffff;
     }
@@ -50,9 +50,11 @@
         display: flex;
         margin-top:20px;
         width: 100%;
-        background-color: darkgrey;
+        background-color: #64A3E1;
         color:#ffffff;
         padding: 20px;
         left:0px;
         bottom: 0px;
+        justify-content: center;
     }
+   
